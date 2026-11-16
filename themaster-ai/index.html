@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheMaster</title>
+    <meta name="description" content="" />
+    <meta property="og:title" content="TheMaster" />
+    <meta property="og:description" content="" />
+    <link rel="icon" type="image/x-icon" href="/asset/TMlogo.ico" />
+    <link rel="shortcut icon" href="/asset/TMlogo.ico" />
+    <link rel="icon" type="image/png" href="/asset/TMlogo.png" />
+    <link rel="apple-touch-icon" href="/asset/TMlogo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for Math Rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0a0a0a;
+        color: #e5e5e5;
+      }
+      .font-mono {
+        font-family: 'Fira Code', monospace;
+      }
+      .font-serif {
+        font-family: 'STIX Two Text', serif;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #262626;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #404040;
+      }
+      /* KaTeX tweak to match theme */
+      .katex {
+        font-size: 1.1em;
+        color: inherit;
+      }
+      .katex-display {
+        margin: 1.5em 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 1rem 0;
+      }
+    </style>
+
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
